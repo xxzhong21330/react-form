@@ -1,0 +1,73 @@
+$nextBtnHeight: 50px;
+
+
+.selectMealFormContainer {
+  width: 660px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+
+.actionBtn {
+  height: $nextBtnHeight;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+}
+
+.previousAndNextWrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $nextBtnHeight;
+  display: flex;
+  justify-content: space-between;
+
+
+  :global .MuiButton-root {
+    width: 50%;
+    border-radius: 0;
+  }
+}
+
+.threeColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 80px;
+  column-gap: 15px;
+  margin: 10px 0;
+}
+
+.deleteBtn:global.MuiButton-root {
+  height: 56px;
+  background-color: rgb(220, 0, 78);
+}
+
+.caption {
+  > div {
+    line-height: 2;
+  }
+}
+
+.addDishBtnWrap {
+  padding-top: 30px;
+}
+
+.reviewContainer {
+  padding-left: 20%;
+  text-align: left;
+}
+
+.reviewColumn {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  column-gap: 15px;
+  margin: 10px 0;
+  line-height: 2;
+}
+
+:global .MuiButton-root.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
