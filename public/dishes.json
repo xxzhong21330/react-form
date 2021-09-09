@@ -1,0 +1,235 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Chicken Burger",
+      "restaurant": "Mc Donalds",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 2,
+      "name": "Ham Burger",
+      "restaurant": "Mc Donalds",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 3,
+      "name": "Cheese Burger",
+      "restaurant": "Mc Donalds",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 4,
+      "name": "Fries",
+      "restaurant": "Mc Donalds",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 5,
+      "name": "Egg Muffin",
+      "restaurant": "Mc Donalds",
+      "availableMeals": ["breakfast"],
+      "dishes": ["breakfast Dish"]
+    },
+    {
+      "id": 6,
+      "name": "Burrito",
+      "restaurant": "Taco Bell",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 7,
+      "name": "Tacos",
+      "restaurant": "Taco Bell",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 8,
+      "name": "Quesadilla",
+      "restaurant": "Taco Bell",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish", "dinner Dish"]
+    },
+    {
+      "id": 9,
+      "name": "Steak",
+      "restaurant": "BBQ Hut",
+      "availableMeals": ["dinner"],
+      "dishes": [ "dinner Dish"]
+    },
+    {
+      "id": 10,
+      "name": "Yakitori",
+      "restaurant": "BBQ Hut",
+      "availableMeals": ["dinner"],
+      "dishes": ["dinner Dish"]
+    },
+    {
+      "id": 11,
+      "name": "Nankotsu",
+      "restaurant": "BBQ Hut",
+      "availableMeals": ["dinner"],
+      "dishes": ["dinner Dish"]
+    },
+    {
+      "id": 12,
+      "name": "Piman",
+      "restaurant": "BBQ Hut",
+      "availableMeals": ["dinner"],
+      "dishes": ["dinner Dish"]
+    },
+    {
+      "id": 13,
+      "name": "Vegan Bento",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch"],
+      "dishes": ["lunch Dish"]
+    },
+    {
+      "id": 14,
+      "name": "Coleslaw Sandwich",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["breakfast"],
+      "dishes": ["breakfast Dish"]
+    },
+    {
+      "id": 15,
+      "name": "Grilled Sandwich",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["breakfast"],
+      "dishes": ["breakfast Dish"]
+    },
+    {
+      "id": 16,
+      "name": "Veg. Salad",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 17,
+      "name": "Fruit Salad",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 18,
+      "name": "Corn Soup",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 19,
+      "name": "Tomato Soup",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 20,
+      "name": "Minestrone Soup",
+      "restaurant": "Vege Deli",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 21,
+      "name": "Pepperoni Pizza",
+      "restaurant": "Pizzeria",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 22,
+      "name": "Pepperoni Pizza",
+      "restaurant": "Pizzeria",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 23,
+      "name": "Hawaiian Pizza",
+      "restaurant": "Pizzeria",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 24,
+      "name": "Seafood Pizza",
+      "restaurant": "Pizzeria",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 25,
+      "name": "Deep Dish Pizza",
+      "restaurant": "Pizzeria",
+      "availableMeals": ["dinner"],
+      "dishes": ["dinner Dish"]
+    },
+    {
+      "id": 26,
+      "name": "Chow Mein",
+      "restaurant": "Panda Express",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 27,
+      "name": "Mapo Tofu",
+      "restaurant": "Panda Express",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 28,
+      "name": "Kung Pao",
+      "restaurant": "Panda Express",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 29,
+      "name": "Wontons",
+      "restaurant": "Panda Express",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 30,
+      "name": "Garlic Bread",
+      "restaurant": "Olive Garden",
+      "availableMeals": ["breakfast", "lunch", "dinner"],
+      "dishes": ["breakfast","lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 31,
+      "name": "Ravioli",
+      "restaurant": "Olive Garden",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 32,
+      "name": "Rigatoni Spaghetti",
+      "restaurant": "Olive Garden",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    },
+    {
+      "id": 33,
+      "name": "Fettucine Pasta",
+      "restaurant": "Olive Garden",
+      "availableMeals": ["lunch", "dinner"],
+      "dishes": ["lunch Dish","dinner Dish"]
+    }
+  ]
+}

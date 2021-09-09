@@ -1,0 +1,20 @@
+
+:global .panelContainer {
+  padding: 20px;
+}
+
+:global .mutiStepTab-panel-wrap {
+  max-height: 100%;
+}
+
+.tabBar {
+  &:global(.MuiTabs-root) {
+    color: red;
+    display: block;
+  }
+
+
+  :global(.MuiTabs-scroller) {
+    width: auto;
+  }
+}
