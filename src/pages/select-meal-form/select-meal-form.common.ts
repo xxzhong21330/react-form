@@ -24,7 +24,7 @@ export type CustomSubFormValidator = (form: NgFormGroup) => boolean;
 // 子组件自定义验证指定 formControl
 export function customControlValidate(
   form: NgFormGroup,
-  keyList: MealFormField[],
+  keyList: string[],
 ): boolean {
   const isValid = keyList.reduce(
     (acc, key) => {

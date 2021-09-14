@@ -34,24 +34,31 @@ export default function MutiStepTab(props: {
     }
   }, [selectedIndex, onTabChange]);
 
+  // 检查当前是否允许切换 Tab, 返回值为 true 则允许切换，否则不允许切换
+  function checkSwitchState(index: number): boolean {
+    if (disableSwitch) {
+      return false;
+    }
+    return !(canSwitchTab && !canSwitchTab(index));
+  }
 
   function handleTabChange(event: React.SyntheticEvent, value: any) {
-    if (disableSwitch) {
-      return;
+    if (checkSwitchState(value)) {
+      setSelectedIndex(value);
     }
-    if (canSwitchTab && !canSwitchTab(value)) {
-      return;
-    }
-    setSelectedIndex(value);
   }
 
   //  暴露 next 方法
   useImperativeHandle(nextHandleRef, () => ({
     next: () => {
-      setSelectedIndex(selectedIndex + 1);
+      if (checkSwitchState(selectedIndex + 1)) {
+        setSelectedIndex(selectedIndex + 1);
+      }
     },
     previous: () => {
-      setSelectedIndex(selectedIndex - 1);
+      if (checkSwitchState(selectedIndex - 1)) {
+        setSelectedIndex(selectedIndex - 1);
+      }
     },
     getCurrentIndex: () => {
       return selectedIndex;

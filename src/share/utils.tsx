@@ -7,7 +7,6 @@ export function unionListField<T, K extends keyof T>(
 ): T[K] | T[K][] {
   return list.reduce((acc, item) => {
     const curValue = item[field];
-    // 暂时只支持数组
     if (!Array.isArray(curValue)) {
       return curValue == null ? acc : union(acc, [curValue]);
     }

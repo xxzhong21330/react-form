@@ -54,7 +54,6 @@ export default function StepComponent1(
             ? <FormHelperText>Must Select Meal</FormHelperText>
             : null
         )}
-
       </FormControl>
 
 

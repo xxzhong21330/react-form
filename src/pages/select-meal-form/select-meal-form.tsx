@@ -20,7 +20,7 @@ import StepComponent3, {createDish} from "./step-component3";
 import StepComponent4 from "./step-component4";
 
 //  创建初始表单
-function createForm(): NgFormGroup {
+export function createForm(): NgFormGroup {
   return new NgFormGroup({
     [MealFormField.meal]: new NgFormControl('', [NgValidators.require]),
     [MealFormField.peopleNum]: new NgFormControl('1', [
@@ -111,7 +111,7 @@ export default function SelectMealForm() {
 
   //  初始化查询数据
   useEffect(() => {
-    from(axios.get('/dishes.json')).pipe(
+    from(axios.get('./dishes.json')).pipe(
       map((res: any) => res?.data?.dishes || []),
       catchError(err => {
         console.error('请求异常');

@@ -1,7 +1,4 @@
-
-interface ValidatorError {
-  [s: string]: boolean;
-}
+export type ValidatorError = Record<string, boolean>
 
 //  返回 null 说明验证通过
 export  type FormValidator = (control: AbstractControl) => ValidatorError | null;
@@ -163,7 +160,6 @@ export class NgFormControl extends AbstractControl {
   constructor(value: any, validators: FormValidator[] = []) {
     super(value, validators)
   }
-
 }
 
 
